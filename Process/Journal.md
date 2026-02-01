@@ -12,10 +12,6 @@ I tried just started playing around with the different features bitsy offers, an
 
 I believe I could expand on this project by adding more elements to the environment to allow it to be more polished and look better but I am happy of what I produced in such little time. This assignment allowed me to explore different small scale game building tools and I'm eager to try the rest of them in my free time.
 
-
-
-# Weekly Class Journal
-
 ## Exploration Prototype 1 (01.22.26 - 01.29.26)
 
 
