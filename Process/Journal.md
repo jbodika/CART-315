@@ -30,3 +30,22 @@ I guess I just didn't understand the global idea of what needed to be done with 
 
 I intend to practice with more Unity prototypes so I can understand what's going on and be more prepared for the upcoming projects we have in this course. 
 
+
+
+## Exploration Prototype II (01.29.26 - 02.05.26)
+For this week I wanted to try to follow a tutorial that was talking about the same topics we saw in class last week. I found a tutorial that uses physics and plays with sound. The concept of the project was fairly simple to make but I encountered many small issues. 
+
+The tutorial had nice features like wing propelling, engine noises and camera movement 
+When I first tried to download and open the assets from unity’s website it wasn’t working. I would add them to my library, but when I wanted to open them, it would just show me the Unity Hub project menu. ( I thought it was a PC issue, so I switched computers, but it ended being a user error on my part. )
+
+ I decided to search on google and I found a solution through a reddit forum. The unity developers “hid” the menu to grab assets under the window settings. It was very confusing to get to my assets, and I wish it would’ve been more intuitive but at least now I know where I can get them in the future. 
+
+My next issue was that the object was missing its texture/material, so I looked up a tutorial on how I can make it show up. I had to play around with the settings in unity to make sure they’d show up. 
+
+A constant issue I would experience were the warnings/errors for the code I was using. Since this tutorial is out of date. I got a lot of errors/warnings in the console for obsolete/deprecated code. 
+
+I enjoyed learning about the different components and ways to tweak an object to simulate “weight” for example the plane needed to weigh 400 lbs so I had to increase the mass attribute of the rigidbody to control the heaviness of the object. 
+
+I think for future projects I would try to use newer tutorials or attempt to substitute some features for more “recent” methods of Unity. I think that would save me from a lot of headaches. 
+
+I am happy with the end result of this exploration I would like to expand on the features possibly by adding a second plane? Maybe a nice scenery? Adjusting the speed of the plane based on how long and the amount of pressure on the keys? There’s a lot of features that can be added to expand on this. 
