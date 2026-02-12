@@ -49,3 +49,5 @@ I enjoyed learning about the different components and ways to tweak an object to
 I think for future projects I would try to use newer tutorials or attempt to substitute some features for more “recent” methods of Unity. I think that would save me from a lot of headaches. 
 
 I am happy with the end result of this exploration I would like to expand on the features possibly by adding a second plane? Maybe a nice scenery? Adjusting the speed of the plane based on how long and the amount of pressure on the keys? There’s a lot of features that can be added to expand on this. 
+
+## Exploration Prototype III (02.05.26 - 02.12.26)
