@@ -54,11 +54,33 @@ I am happy with the end result of this exploration I would like to expand on the
 ## Exploration Prototype III (02.05.26 - 02.12.26)
  
 ![alt text](image.png)
+
 In this week's exploration I followed a tutorial on how to spawn different prefab objects. this tutorial was very clear and informational. I did experience a few errors due to following an older tutorial. I made a spaceship that moves around based on where you press on the screen. I had a few errors because I didn’t properly instantiate some variables with all the correct parameters, so I was.
 I think the experience could be enhanced by having a moving background and a joystick or a visual indicator of how you’re moving the ship because I would often get confused of the direction in which the ship is coming from. 
 
 I spent a lot of time not understanding why I couldn’t spawn multiple objects, until I checked out the camera projection. In the tutorial the person had it in perspective view and I have it orthographic view so I wasn’t able to see the different asteroids spawning in since they were coming out from a different axis. This prototype is a great starting point but there’s a lot of ways that this can be enhanced and improved to be a full project. 
 Maybe there’s damage? Or obstacles than asteroids? Maybe power ups by hitting random objects from earth. 
-![alt text](video.mp4)
+![alt text](Picture1.gif)
+(I can't figure out how to attach a video.)
 
 I added collision detection to help immerse yourself in the experience. So the asteroids wont run through the ship and It adds.
+
+
+
+## Exploration Prototype IIII (02.12.26 - 02.19.26)
+For this week I wanted to try to follow a tutorial that was talking about the same topics we saw in class last week. I found a tutorial that uses physics and plays with sound. The concept of the project was fairly simple to make but I encountered many small issues. 
+
+The tutorial had nice features like wing propelling, engine noises and camera movement 
+When I first tried to download and open the assets from unity’s website it wasn’t working. I would add them to my library, but when I wanted to open them, it would just show me the Unity Hub project menu. ( I thought it was a PC issue, so I switched computers, but it ended being a user error on my part. )
+
+ I decided to search on google and I found a solution through a reddit forum. The unity developers “hid” the menu to grab assets under the window settings. It was very confusing to get to my assets, and I wish it would’ve been more intuitive but at least now I know where I can get them in the future. 
+ 
+My next issue was that the object was missing its texture/material, so I looked up a tutorial on how I can make it show up. I had to play around with the settings in unity to make sure they’d show up. 
+
+A constant issue I would experience were the warnings/errors for the code I was using. Since this tutorial is out of date. I got a lot of errors/warnings in the console for obsolete/deprecated code. 
+
+I enjoyed learning about the different components and ways to tweak an object to simulate “weight” for example the plane needed to weigh 400 lbs so I had to increase the mass attribute of the rigidbody to control the heaviness of the object. 
+
+I think for future projects I would try to use newer tutorials or attempt to substitute some features for more “recent” methods of Unity. I think that would save me from a lot of headaches. 
+
+I am happy with the end result of this exploration I would like to expand on the features possibly by adding a second plane. Maybe a nice scenery? Adjusting the speed of the plane based on how long and the amount of pressure on the keys? There’s a lot of features that can be added to expand on this. 
