@@ -50,6 +50,7 @@ I think for future projects I would try to use newer tutorials or attempt to sub
 
 I am happy with the end result of this exploration I would like to expand on the features possibly by adding a second plane? Maybe a nice scenery? Adjusting the speed of the plane based on how long and the amount of pressure on the keys? There’s a lot of features that can be added to expand on this. 
 
+<<<<<<< HEAD
 
 ## Exploration Prototype III (02.05.26 - 02.12.26)
  
@@ -61,3 +62,6 @@ Maybe there’s damage? Or obstacles than asteroids? Maybe power ups by hitting 
  ![alt text](Picture1.gif)
 
 I added collision detection to help immerse yourself in the experience. So the asteroids wont run through the ship and It adds.
+=======
+## Exploration Prototype III (02.05.26 - 02.12.26)
+>>>>>>> 5a6597633f8641d22b09a361c093063ddb58c828
