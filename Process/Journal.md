@@ -49,3 +49,15 @@ I enjoyed learning about the different components and ways to tweak an object to
 I think for future projects I would try to use newer tutorials or attempt to substitute some features for more “recent” methods of Unity. I think that would save me from a lot of headaches. 
 
 I am happy with the end result of this exploration I would like to expand on the features possibly by adding a second plane? Maybe a nice scenery? Adjusting the speed of the plane based on how long and the amount of pressure on the keys? There’s a lot of features that can be added to expand on this. 
+
+
+## Exploration Prototype III (02.05.26 - 02.12.26)
+ 
+In this week's exploration I followed a tutorial on how to spawn different prefab objects. this tutorial was very clear and informational. I did experience a few errors due to following an older tutorial. I made a spaceship that moves around based on where you press on the screen. I had a few errors because I didn’t properly instantiate some variables with all the correct parameters, so I was.
+I think the experience could be enhanced by having a moving background and a joystick or a visual indicator of how you’re moving the ship because I would often get confused of the direction in which the ship is coming from. 
+![alt text](image.png)
+I spent a lot of time not understanding why I couldn’t spawn multiple objects, until I checked out the camera projection. In the tutorial the person had it in perspective view and I have it orthographic view so I wasn’t able to see the different asteroids spawning in since they were coming out from a different axis. This prototype is a great starting point but there’s a lot of ways that this can be enhanced and improved to be a full project. 
+Maybe there’s damage? Or obstacles than asteroids? Maybe power ups by hitting random objects from earth. 
+ ![alt text](Picture1.gif)
+
+I added collision detection to help immerse yourself in the experience. So the asteroids wont run through the ship and It adds.

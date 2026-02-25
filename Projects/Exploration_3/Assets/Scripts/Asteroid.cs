@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
 
 public class Asteroid : MonoBehaviour
 {
@@ -8,21 +9,22 @@ public class Asteroid : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 screenBounds;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = this.GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(-speed, 0);
-        screenBounds=Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z));
 
+        float screenHeight = Camera.main.orthographicSize;
+        float screenWidth = screenHeight * Camera.main.aspect;
+
+        screenBounds = new Vector2(screenWidth, screenHeight);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(transform.position.x < screenBounds.x * 2)
+        if (transform.position.x < -screenBounds.x - 1)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
     }
 }

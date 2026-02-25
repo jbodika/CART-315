@@ -9,15 +9,22 @@ public class deployAsteroids : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height));
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         StartCoroutine(asteroidWave());
     }
     private void spawnEnemy()
     {
-        GameObject a = Instantiate(asteroidPrefab) as GameObject;
-        a.transform.position = new Vector2(screenBounds.x * -2, Random.Range(-screenBounds.y, screenBounds.y));
+        GameObject a = Instantiate(asteroidPrefab);
 
+        float screenHeight = Camera.main.orthographicSize;
+        float screenWidth = screenHeight * Camera.main.aspect;
+
+        a.transform.position = new Vector2(
+            screenWidth + 1,
+            Random.Range(-screenHeight, screenHeight)
+        );
     }
+
 
     IEnumerator asteroidWave()
     {
