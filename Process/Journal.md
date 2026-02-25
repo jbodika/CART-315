@@ -59,6 +59,6 @@ I think the experience could be enhanced by having a moving background and a joy
 
 I spent a lot of time not understanding why I couldn’t spawn multiple objects, until I checked out the camera projection. In the tutorial the person had it in perspective view and I have it orthographic view so I wasn’t able to see the different asteroids spawning in since they were coming out from a different axis. This prototype is a great starting point but there’s a lot of ways that this can be enhanced and improved to be a full project. 
 Maybe there’s damage? Or obstacles than asteroids? Maybe power ups by hitting random objects from earth. 
- ![alt text](video.mp4)
+![alt text](video.mp4)
 
 I added collision detection to help immerse yourself in the experience. So the asteroids wont run through the ship and It adds.
