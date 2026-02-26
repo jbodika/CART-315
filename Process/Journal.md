@@ -105,13 +105,13 @@ Inspired by the spinning wheel in clueless where the character is browsing throu
 2.	Jewlery maker
 Helper to set up for making jewelry, I like to make jewelry sometimes and if I had a program where I could visualize what I want to make before buying the assets I think it would help me make a decision faster!  This game would have different jewlery assets in 2D, you'd be able to select what kind of style of jewlery you would want to make and pick and the items would appear next to eachoteher? 
 
-3.	Popper/Breaker  
+3.	Breaker
 Inspired by demolition rooms where people break things, this game would give you different objects (3D objects) that would break based on how they are thrown and it would make sounds based on the kind of item. 
 
 4.	Escape room
 There’s a mystery you only have 15 mins-ish to solve it and escape. Since it won’t be too long I would probably have 3-4 different milestones that the user has to go through. I’m not sure how I would create the different mini scenarios and how I could build it but I do like the concept of escaping. 
 
-Look and feel images 
+I chose to make the look and feel prototype images based on the Demolition room game.
 
 ![alt text](image-1.png)
 
