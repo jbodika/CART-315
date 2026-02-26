@@ -93,7 +93,7 @@ I first started off by brainstorming ideas for 5 minutes, I set up a timer and s
 6.	Jewelry maker
 7.	Cleaning/sorting items in a space
 8.	Insomnia escape
-9.	Popper/Breaker
+9.	Breaker
 10.	Escape room 
 11.	Quest??
 
@@ -102,16 +102,16 @@ I first started off by brainstorming ideas for 5 minutes, I set up a timer and s
  
 Inspired by the spinning wheel in clueless where the character is browsing through different clothes in her closet to find the outfit she’ll wear.  I would probably build the assets on my own with a pixel art program (pixilart) and the interface would be done in unity. 
 
-2.	Jewlery maker
-Helper to set up for making jewelry, I like to make jewelry sometimes and if I had a program where I could visualize what I want to make before buying the assets I think it would help me make a decision faster!  This game would have different jewlery assets in 2D, you'd be able to select what kind of style of jewlery you would want to make and pick and the items would appear next to eachoteher? 
+2.	Jewlery crafter
+Helper program to craft jewlery, this would be useful game to help visualize what you want to make before buying the assets pieces. I think it would help people make see visualize the jewlery! This game would have different jewlery assets (pixel art), you'd be able to select what kind of style of jewlery you would want to make (necklace,ring,etc) and choose how it'll be layed out.
 
 3.	Breaker
 Inspired by demolition rooms where people break things, this game would give you different objects (3D objects) that would break based on how they are thrown and it would make sounds based on the kind of item. 
 
-4.	Escape room
-There’s a mystery you only have 15 mins-ish to solve it and escape. Since it won’t be too long I would probably have 3-4 different milestones that the user has to go through. I’m not sure how I would create the different mini scenarios and how I could build it but I do like the concept of escaping. 
+4.	Escape room (could be combined with breaker)
+There’s a mystery you only have 15 mins-ish to solve it and escape. Since it won’t be too long I would probably have 3-4 different milestones that the player has to go through. I’m not sure how I would create the different mini scenarios and how I could build it but I do like the concept of escaping. 
 
-I chose to make the look and feel prototype images based on the Demolition room game.
+I chose to make the look/feel prototype images based on the Demolition room game.
 
 ![alt text](image-1.png)
 
