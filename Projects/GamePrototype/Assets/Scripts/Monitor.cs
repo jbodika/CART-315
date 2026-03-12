@@ -36,13 +36,13 @@ public class Monitor : MonoBehaviour
     // click on monitor function 
 
 
-    // click on cable box
+    // click on cable box-- for next week 
 
-    // open cable box
+    // open cable box- for next week
 
-    // grab and place cables
+    // grab and place cables - done throught the cable.cs file
 
-    // error check
+    // error check 
 
 
 }
