@@ -258,5 +258,9 @@ Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfi
 https://www.pixilart.com/howboutno0/albums/cart-315-assets-411604 
 
 
+![right](right-version.gif)
+![wrong](wrong-version.gif)
+
+
 
 
