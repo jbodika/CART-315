@@ -120,3 +120,143 @@ I chose to make the look/feel prototype images based on the Demolition room game
 ![alt text](image-3.png)
 
 ![alt text](image-4.png)
+
+## Iterative Prototype II (02.26.26 - 02.12.26)
+For the second iteration of prototping, I decided to team up with Josephine to create a puzzle game. We started by sharing our indivudal brainstorming different ideas of project.
+
+```
+FIRST TEAM BRAINSTORM 26.02.26
+
+We like idea of:
+
+Puzzle game 
+Jo’s idea 
+ 
+We want to have a storyline: even if simple (parent catches you etc)
+Use of audio/ audio cues
+Pixel Art
+Add dialog/Thought bubbles
+We like the idea of someone catching you/some urgency
+
+
+We have to pick an environment the puzzles will be in:
+school desk
+Computer desktop/phone screen
+architect desk (you play with maps)
+doctor operation table  
+robbing a bank
+cooking/kitchen (fridge)
+wardrobe
+computer wiring
+suitcase 
+
+
+
+Maybe darker lore
+```
+
+We came up with 3 ideas of "settings" of where the game would be. We had a School Desk, Computer Desk/Phone, Wardrobe. 
+
+```
+MEETING MARCH 5TH
+
+Jo’s brainstorming:
+School Desk:
+rearranging the desk (like in Jo’s iterative prototype 1)
+Sorting items in a pencil case by color
+sorting pencils by size
+drawing in a notebook - matching game
+
+Computer Desktop/phone:
+playing pong on computer lol and when you win you get a code
+sorting your desktop
+something to do with the photos app? You have to find something
+→ anything email/text/photo related will require a lot of writing/photo
+
+Wardrobe:
+sorting shirts by color
+pairing socks together
+sorting shoes by size
+finding the “odd” object and removing it (finding the hawaiian shirt in middle of regular dress shirts)
+→ scared it is going to be too much art/drawing to do
+
+
+Jolene’s brainstorm
+
+School Desk:
+Its detention you want to get out.
+Rewrite the words on the paper
+Fix the time based off this riddle – you see a clock and you’re trying to set it up to fix the time
+write on the desk - graffiti
+ 
+Computer Desk/Phone:
+ik this is very different from what we spoke about **
+Build a computer ? (all components are layed out you have to put the in the right place)
+once its built set up the monitor there's different wires you have to connect to set it up
+turn it on, a mini game that looks like the terminal (not sure what’d it look like) pong game 
+ 
+Wardrobe:
+It’s late at night and you’re trying to sneak out of your parent’s home to go to a party.
+Fix the lightbulb – what if we show the action before it happens so we see a light bulb fall, then in the corner at the bottom there’s a box of lightbulbs, so the player has to screw it back on. there’s a dead lightbulb you have.
+Pick an outfit
+Grab your shoes
+```
+
+
+Then we came up with an idea of the computer
+
+```
+Computer Desktop!! - FINAL CHOICE
+
+You’re working an office job. While your boss was on vacation, you were using their computer to try to find the document that lists the next round of people getting fired. 
+You spill coffee all over it and need to fix it. Your boss is coming back to work at 7am the next morning, so you have to sneak in at night to fix it and find the document in time. There’s a security guard who’s patrolling the office space. You must make sure to not get caught, or else you’ll lose your job/go to jail.
+
+Setting: office space, night, storm outside, high-tension
+
+When the security officer approaches you can hide.
+If you are caught, game over
+```
+
+then we split tasks for what we needed to do for the week
+
+```
+Assets to build: Sketch out the visuals (Monitor, Wires, Error, Correct) 
+Things to add: sounds (error, correct, footsteps,storm), button to hide (no implementation)
+
+
+
+Wire mini game:
+4 wires, random colors, you try to connect to the right end. If it is not right, RED CROSS + sound, you try again. When it is right, Green check + sound.
+
+
+For next week:
+Jo:
+Better game pitch, mechanics explained better, gameplay loops 
+Find sounds (error, correct, footsteps, storm),)
+Start working on the icons (red cross, green check)
+
+
+Jolene:
+Sketches
+Create the monitor and the wires with pixilart
+Program the drag and drop functionality, Correct/Err functionality. 
+
+
+Jolene: Implementation
+Josephine: Role
+Both: Look and feel
+
+
+
+```
+
+I sketched the different designs
+
+INSERT IMAGES HERE
+
+Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfied with it's design. 
+https://www.pixilart.com/howboutno0/albums/cart-315-assets-411604 
+
+
+
+
