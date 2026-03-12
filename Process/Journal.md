@@ -252,7 +252,9 @@ Both: Look and feel
 
 I sketched the different designs
 
-INSERT IMAGES HERE
+![alt text](Monitor-sketches)
+
+![alt text](Cables-sketches)
 
 Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfied with it's design. 
 
