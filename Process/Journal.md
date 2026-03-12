@@ -124,6 +124,7 @@ I chose to make the look/feel prototype images based on the Demolition room game
 ## Iterative Prototype II (02.26.26 - 02.12.26)
 For the second iteration of prototping, I decided to team up with Josephine to create a puzzle game. We started by sharing our indivudal brainstorming different ideas of project.
 
+#### Brainstorming
 ```
 FIRST TEAM BRAINSTORM 26.02.26
 
@@ -249,33 +250,69 @@ Both: Look and feel
 
 
 ```
-
-I sketched the different designs
+#### Sketching
+I did some sketching.
 
 ![alt text](Monitor-sketches)
 
 ![alt text](Cables-sketches)
 
-Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfied with it's design. 
+Then I did the pixilart for it, but I kept tweaking it. 
+
 ![alt text](monitor.png)
 ![alt text](cable_red.png)
 
-I wanted to be able to switch through scenes when you click on the monitor and it brings you to you cables. but there was tiny things that were confusing me like, the camera grid disappeared so i wasn't sure where on th grid i was placing my things and it wasn't smooth overall so for now i built it all in the same scene. I created 4 scripts, PuzzleManager which handles the error checking, Sockets, Cable, and Monitor.
+#### Implementation
 
-The "Sockets" are the slots where the player inserts the cables into. The Socket class just has a state variable that checks if the current socket is occupied or not so there's no overlapping with the cables.
+When I first started off with the implementation I wrote down the steps that I wanted to be able to execute for this iteration. 
 
-The Cable class handles all the logic for the cables, so the dragging, the change in the image,  
+```
 
-I'm currently having an issue with box collider component. The cables are large so when I change the image to the close-up version the box collider doesn't follow the shape of the image and it stretches towards the outside of the image. (for example im able to grab a cable even if my mouse isn't directly on it). I tried modifying it but I'll do more testing so i can figure out something seamless. 
+   // click on monitor function 
 
-I intend to organize the assets more clearly next week. 
 
-When i first started off with the implementation i wrote down the steps that I want to be able to execute. 
+   // click on cable box-- for next week 
 
+   // open cable box- for next week
+
+   // grab and place cables - done through the cable.cs file
+
+   // error check -- done-ish
+
+```
+I watched a lot of tutorials on youtube to understand the process of the click and drag and changing images and switching levels.
+like these ones (https://youtu.be/ztJPnBpae_0?si=uaumDctYMCn5xIAM, https://www.youtube.com/watch?v=hs2TB3hdylk&t=317s), they were very helpful.
+
+
+I wanted to be able to switch through scenes when you click on the monitor and it brings you to you cables. but there was tiny things that were confusing me for example, the camera grid disappeared so I wasn't sure where on the grid I was placing things and it wasn't smooth overall so for now I built it all in the same scene. I created 4 scripts, PuzzleManager, Sockets, Cable, and Monitor.
+
+<table>
+ <tr>
+  <td>PuzzleManager </td>
+  <td>Sockets</td>
+  <td>Cable</td>
+  <td>Monitor</td>
+ </tr>
+  <tr>
+  <td>handles the error checking it keeps track if all cables are connected and determines if the placement is correct or not.
+ </td>
+  <td>The "Sockets" are the slots where the player inserts the cables into. The Socket class just has a state variable that checks if the current socket is occupied or not so there's no overlapping with the cables.</td>
+  <td>The Cable class handles all the logic for the cables, so the dragging and the changes for the images.
+</td>
+  <td>Monitor handles the interaction with the monitor so basically you have to click to start the puzzle.
+</td>
+ </tr>
+</table>
+
+I'm currently having an issue with box collider component. The cables are large so when I change the image to the close-up version the box collider doesn't follow the shape of the image and it stretches towards the outside of the image. (for example im able to grab a cable even if my mouse isn't directly on it). I tried modifying it but I'll do more testing so i can figure out something seamless. We plan on adding a functionality for the player to open a cable box and and then they can drag the cables out.
+
+I intend to organize the assets more clearly next week. I will be working on fixing up the "spacing" issue with the images and work on tweaking elements so everything can be pieced together
 
 
 The right way to do it.
 ![right](right-version.gif)
+
+
 The wrong way.
 ![wrong](wrong-version.gif)
 
