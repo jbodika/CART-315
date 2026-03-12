@@ -255,10 +255,25 @@ I sketched the different designs
 INSERT IMAGES HERE
 
 Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfied with it's design. 
-https://www.pixilart.com/howboutno0/albums/cart-315-assets-411604 
 
 
+I wanted to be able to switch through scenes when you click on the monitor and it brings you to you cables. but there was tiny things that were confusing me like, the camera grid disappeared so i wasn't sure where on th grid i was placing my things and it wasn't smooth overall so for now i built it all in the same scene. I created 4 scripts, PuzzleManager which handles the error checking, Sockets, Cable, and Monitor.
+
+The "Sockets" are the slots where the player inserts the cables into. The Socket class just has a state variable that checks if the current socket is occupied or not so there's no overlapping with the cables.
+
+The Cable class handles all the logic for the cables, so the dragging, the change in the image,  
+
+I'm currently having an issue with box collider component. The cables are large so when I change the image to the close-up version the box collider doesn't follow the shape of the image and it stretches towards the outside of the image. (for example im able to grab a cable even if my mouse isn't directly on it). I tried modifying it but I'll do more testing so i can figure out something seamless. 
+
+I intend to organize the assets more clearly next week. 
+
+When i first started off with the implementation i wrote down the steps that I want to be able to execute. 
+
+
+
+The right way to do it.
 ![right](right-version.gif)
+The wrong way.
 ![wrong](wrong-version.gif)
 
 
