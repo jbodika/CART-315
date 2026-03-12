@@ -7,8 +7,6 @@ public class Cable : MonoBehaviour
     private Vector3 offset;
     private bool dragging = false;
 
-    public static int socketCount;
-
     public string correctSocket;
     public string connectedSocket;
 
