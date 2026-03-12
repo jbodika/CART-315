@@ -257,7 +257,8 @@ I sketched the different designs
 ![alt text](Cables-sketches)
 
 Then I did the pixilart for it, I kept tweaking it because I wasn't 100% satisfied with it's design. 
-
+![alt text](monitor.png)
+![alt text](cable_red.png)
 
 I wanted to be able to switch through scenes when you click on the monitor and it brings you to you cables. but there was tiny things that were confusing me like, the camera grid disappeared so i wasn't sure where on th grid i was placing my things and it wasn't smooth overall so for now i built it all in the same scene. I created 4 scripts, PuzzleManager which handles the error checking, Sockets, Cable, and Monitor.
 
