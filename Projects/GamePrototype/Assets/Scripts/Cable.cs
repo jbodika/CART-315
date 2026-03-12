@@ -63,33 +63,5 @@ public class Cable : MonoBehaviour
             }
         }
     }
-    //void CheckPuzzle()
-    //{
-    //    Cable[] cables = FindObjectsOfType<Cable>();
-
-    //    bool allCorrect = true;
-
-    //    foreach (Cable c in cables)
-    //    {
-    //        if (c.connectedSocket != c.correctSocket)
-    //        {
-    //            allCorrect = false;
-    //            break;
-    //        }
-    //    }
-
-    //    if (allCorrect)
-    //    {
-    //        Debug.Log("Show CHECKMARK");
-    //        FindObjectOfType<PuzzleManager>().ShowCheckmark();
-    //        // shoudld exit Application.Quit();
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("Show X");
-    //        FindObjectOfType<PuzzleManager>().ShowX();
-    //        // shoudld exit Application.Quit();
-
-    //    }
-    //}
+  
 }
