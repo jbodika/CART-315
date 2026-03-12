@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Monitor : MonoBehaviour
@@ -13,4 +15,16 @@ public class Monitor : MonoBehaviour
     {
         
     }
+
+    // click on monitor function 
+
+    // click on cable box
+
+    // open cable box
+
+    // grab and place cables
+
+    // error check
+
+
 }
