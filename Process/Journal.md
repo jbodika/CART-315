@@ -122,7 +122,7 @@ I chose to make the look/feel prototype images based on the Demolition room game
 ![alt text](image-4.png)
 
 ## Iterative Prototype II (02.26.26 - 02.12.26)
-For the second iteration of prototping, I decided to team up with Josephine to create a puzzle game. We started by sharing our indivudal brainstorming different ideas of project.
+For the second iteration of prototping, I decided to team up with Josephine to create a puzzle game. We started by sharing our indivudal brainstorming different ideas of project. For a deeper understanding of the game mechanics: [Link To Josephine's Github](https://github.com/jbodika/CART-315/blob/main/Process/Journal.md#implementation)
 
 #### Brainstorming
 ```
