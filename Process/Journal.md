@@ -319,3 +319,15 @@ The wrong way.
 
 ## Iterative Prototype III (03.12.26 - 03.19.26)
 
+This week I focused on the following tasks.
+
+```
+- Draw the front of the monitor
+- Add an arrow to go to back (to switch scenes)
+- error message ex “you cannot use the computer it’s still broken!”
+- refine the first game
+```
+
+I started the monitor as soon as class was done, because I wanted to be in advance with the work. It was quick and easy since we already had an idea of what the front looks like. I got the arrow from online because our prof recommended to use assets that are available online to help save time. I do want to keep the aestethic that we have so I think I might redo it if i have free time. 
+
+I did some error checking for the monitor swapping. we dont want the user to be able to complete the mini-puzzles if they're not in the correct sequences. 
