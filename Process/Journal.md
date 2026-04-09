@@ -331,3 +331,52 @@ This week I focused on the following tasks.
 I started the monitor as soon as class was done, because I wanted to be in advance with the work. It was quick and easy since we already had an idea of what the front looks like. I got the arrow from online because our prof recommended to use assets that are available online to help save time. I do want to keep the aestethic that we have so I think I might redo it if i have free time. 
 
 I did some error checking for the monitor swapping. we dont want the user to be able to complete the mini-puzzles if they're not in the correct sequences. 
+
+
+##  Final Iterative Prototype (04.09.2026)
+
+For the final iteration of this project, I focused on two things: refining the first mini-game and integrating all the individual game sequences into a cohesive whole. The goal was to give our game a smooth, logical flow. One where each scene connects naturally to the next without overwhelming the player.
+
+Players must now click on the cable box before they can begin working at the computer. This small step adds situational logic of the game and guides players into the puzzle. Instead of showing them with a bunch of cables all at once, the game now gives them information progressively through connected scenes.
+
+### Look and feel
+- I added a dark filter overlay to show that it's a nighttime setting.
+- Also changed the socket colours to avoid visual confusion: less colours = clearer interaction.
+- I also added borders to the mini-game screen to simulate the feeling of working with the cables of a computer. 
+
+<br/>
+<br/>Older version<br/>
+<img width="767" height="442" alt="image" src="https://github.com/user-attachments/assets/dba42220-fcdd-4583-b575-3648171aa0e9" />
+<br/>
+Newer Version <br/>
+<img width="813" height="457" alt="image" src="https://github.com/user-attachments/assets/0ea43810-8a3e-4d4f-8f43-953d48e001a5" />
+
+
+Introduced the cable box as a visual and helper, to create context before the main puzzle starts.
+<br/><br/>
+Before
+<img width="1203" height="628" alt="image" src="https://github.com/user-attachments/assets/337ffeba-cbcf-4ee0-be4a-e6e6939acf54" />
+<br/><br/>
+After
+<img width="412" height="183" alt="image" src="https://github.com/user-attachments/assets/6610428a-0071-448a-a2ad-67fb277c8fd3" />
+<img width="451" height="247" alt="image" src="https://github.com/user-attachments/assets/d5bc085c-ecb5-4bb0-b9e0-b700278637d5" />
+
+### Bug fixes
+- Incorrectly picking up any cable and placing it on any socket would register as either a pass or a fail, regardless of how correct it is. This is now fixed so that the outcomes now accurately  reflect player choices.
+- The monitor would disappear during the transition scene if you would click on it, I realized I forgot to add a if/else block to check if the player is in the transition scene or not.
+
+
+### Implementation
+Improved replayability by changing how game reset after the final check (all cables are connected), so now it allows players to retry until they get the correct sequence with the cable game.
+
+After several weeks of iterative development, I'm genuinely happy with where this prototype is at. The loop of the game is functional and  the scenes connect.
+
+Although there's always room to grow I think we could plan on refining the project for the future with:
+
+- Audio feedback, when connecting or disconnecting cables, making interactions feel more "real" and satisfying.
+- A lives system: not 100% how it would be designed but that's something we've discussed a lot instead of making the game end abruptly and forcing the player to restart.
+- A title screen for a more complete and polished first impression.
+
+**Some visual assets (the wall and computer background) were sourced from online to support the development process and focus effort on the mechanical design.**
+
+Here's the final demo 
