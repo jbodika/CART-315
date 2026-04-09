@@ -380,3 +380,4 @@ Although there's always room to grow I think we could plan on refining the proje
 **Some visual assets (the wall and computer background) were sourced from online to support the development process and focus effort on the mechanical design.**
 
 Here's the final demo 
+[Link to the video](https://github.com/jbodika/CART-315/blob/main/Process/exampleVideo2.mp4)
