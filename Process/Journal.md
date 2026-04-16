@@ -381,3 +381,55 @@ Although there's always room to grow I think we could plan on refining the proje
 
 Here's the final demo 
 [Link to the video](https://github.com/jbodika/CART-315/blob/main/Process/exampleVideo2.mp4)
+
+## Final Journal (04.16.2026)
+After many weeks of working on our project, it feels great to see the difference between where we started and where we are now.
+
+### Playtesting Session
+Last week we held our in-class playtesting session. We weren't able to test with headphones because we didn't have any available, but we still got solid feedback from peers who played through our game. Having outside eyes on the game was really useful. I'm glad we were able to get feedback from people who aren't used to playing or testing our game.
+
+The main things we took away from the session were:
+
+The hiding mechanic was breaking during scene transitions
+The hiding mechanic also wasn't pausing the breakout mini-game like it should, it needed a proper pause toggle
+The beeping sounds during breakout were way too loud
+
+I also made the prototype available as a downloadable executable after the session so people could run it on their own machines without needing Unity installed. We talked about uploading the project to itch.io but after discussion we decided it'd be easier to just build an executable. The process was quick and I didn't run into any issues. The executable makes our prototype feel more "real".
+
+### Bug Fixes This Week
+All fixes this week came directly from the playtest feedback.
+
+The transition bug
+
+There was a weird timing bug between the cable mini-game and the door-open scene transition. If a player finished the cable game at the exact same moment the door-open sequence triggered, the game would throw them to a game over screen for no reason. The game wasn't checking whether a transition was already in progress before running its game-over logic, so pressing H mid-transition would be seen as a fail.
+
+The fix was to pause the door-open sequence during transitions so it can't trigger a game over while the scene is still switching. Now the transition finishes cleanly before any outcome logic runs, so players don't get punished for finishing the mini-game during the door open sequence.
+
+Hiding during breakout
+
+If you held down H while the breakout mini-game was running, the mini-game would keep going in the background even while the hiding animation was playing. The player was technically doing two things at once, which caused that weird bug.
+The fix was straightforward. Now pressing H toggles a paused state on the mini-game. It freezes when you hide and starts again when you come out. It also just makes more sense for the game's logic since hiding should interrupt whatever the player is doing.
+
+### Reflection
+This last week was really about polishing and refining instead of adding anything new. One of the things I took away from this course is knowing when to stop adding features and just focus on making what's there work properly. Rapid prototyping kept us moving fast all semester, but the final stretch needed a different approach: slow down, take the feedback seriously, and actually fix things instead of patching around them.
+There were times where I would focus on minor details like visuals or tweaks to how sound was playing, but I had to constantly remind myself that it's only a prototype and not a finished game. It's okay to make mistakes, and it's okay if things don't necessarily look a certain way. As long as the prototype keeps its core functionalities that were established at the start, it's doing its job.
+
+During the development process, Josephine and I would meet up weekly to discuss what we were going to do for the week and split our tasks. I think that really helped us stay organized. We would help each other out whenever one of us ran into an issue.
+
+Working in Unity and C# over the whole semester meant every week added a little more comfort with the engine. I had experience coding in C# but had never used Unity before. It was a bit difficult at the start of the semester but I watched a lot of tutorials that helped me out. I think the ideation and exploration stages were key moments I enjoyed in this class. During the exploration phase we could make anything we wanted by applying what we learned each week to a new project. Since I hadn't used Unity before, I was creating different mini projects using what we covered in class to understand how certain things worked. The ideation phase was fun too because that's when the course really felt like it was taking off. We were starting to come up with our own ideas for the final project, even though coming up with ideas can sometimes be challenging.
+
+At the start of this project I thought we would end up with a fully realized game. Our prototype is playable, and we even discussed replayability at one point. If a player finishes the game, would they want to replay it knowing the cable combination is always the same? I spent some time thinking about that but ended up leaving the cable game as is with no randomization between playthroughs. For people who already know the correct sequence it might feel easy, but watching the playtest from the outside, it took people a few tries to solve it and some even asked for the correct sequence. Since there are only 16 different possible combinations, I don't think randomizing it would add much value either way.
+We also talked about adding a starting animation where you see the computer breaking down to set the scene before the player takes control, but we decided to keep the focus on core functionalities for now. These are the kinds of ideas that would be great to revisit if we ever took this beyond a prototype.
+
+<img width="394" height="271" alt="image" src="https://github.com/user-attachments/assets/ee5d7765-ae60-4ea8-b96e-4a3a16daa8b9" />
+
+For look and feel, we built a lot of our visuals around a specific aesthetic: 2D pixel art with a slightly rough, imperfect quality to it. I also made sure to connect the mini-game with transitional scenes and small mechanical cues, like clicking on the cable box to open it and reveal the cables needed to fix the monitor. I really wanted to add more context to the story of the prototype rather than just dropping the player into a puzzle with no setup.
+
+For the role, the player starts inside the office and sees the back of the computer while a security guard patrols the space. The hiding mechanism is the core action that ties everything together, it's the main thing the player has to manage while also trying to fix the computer.
+
+For implementation, we used Unity and C# to build a functional hiding mechanism and two mini-games. Some of the bigger technical challenges were managing state across overlapping sequences, like making sure the hiding mechanic correctly paused the mini-game and that scene transitions couldn't accidentally trigger a game over. Building the executable so people could download and play without needing Unity installed was also part of getting the technical side to a presentable place.
+
+By combining all these elements efficiently, we were able to make the integration feel seamless and polished.
+Looking at everything from the first prototype to now, I'm genuinely happy with where this ended up. There's definitely more to build on to turn this into a fully finished game, things like a lives system, audio feedback on cable interactions, and a proper title screen. But as a final prototype and a capstone to a semester of iterative design, this is something I'm proud of.
+
+Here's a link to download our prototype: [link]
