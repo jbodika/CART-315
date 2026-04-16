@@ -432,4 +432,6 @@ For implementation, we used Unity and C# to build a functional hiding mechanism 
 By combining all these elements efficiently, we were able to make the integration feel seamless and polished.
 Looking at everything from the first prototype to now, I'm genuinely happy with where this ended up. There's definitely more to build on to turn this into a fully finished game, things like a lives system, audio feedback on cable interactions, and a proper title screen. But as a final prototype and a capstone to a semester of iterative design, this is something I'm proud of.
 
-Here's a link to download our prototype: [link]
+[Click to download our prototype](https://github.com/jbodika/CART-315-Prototype/tree/main/GamePrototype/FinalPrototype)
+
+[Click to view our project files](https://github.com/jbodika/CART-315-Prototype/tree/main/GamePrototype)
