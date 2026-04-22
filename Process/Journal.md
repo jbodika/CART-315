@@ -438,6 +438,8 @@ Looking at everything from the first prototype to now, I'm genuinely happy with 
 
 
 ## Game Analysis (04.19.2026)
+<img width="616" height="353" alt="image" src="https://github.com/user-attachments/assets/c9ee9b7d-f3c6-45da-bd95-459ee6dd0df3" />
+
 The Danganronpa video game franchise is a visual novel murder mystery game where a group of students with unique "ultimate" talents must go through class trials to uncover who the killer is and avoid the spread of despair. There are currently 4 games in the series but I have only played 3 of them. For this analysis I will be focusing on the second game, Danganronpa 2: Goodbye Despair.
 
 ### Look & Feel
