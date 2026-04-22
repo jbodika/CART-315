@@ -457,7 +457,7 @@ What makes the role interesting is the emotional weight behind it. You spend tim
 The game includes several minigames in the trials: Non-Stop Debate, Panic Talk Action, Logic Dive, and Hangman's Gambit. 
 
 
-Hangman's Gambit requires you to hit the correct letters while avoiding others that are flying across the screen, all while trying to guess the hidden word. The concept is interesting but in practice it's very difficult to managae avoiding letters and the word guessing at the same time, which makes it feel more frustrating than satisfying.
+Hangman's Gambit requires you to hit the correct letters while avoiding others that are flying across the screen, all while trying to guess the hidden word. The concept is interesting but in practice it's very difficult to manage avoiding letters and the word guessing at the same time, which makes it feel more frustrating than satisfying.
 <img width="1080" height="607" alt="image" src="https://github.com/user-attachments/assets/223571c3-6e7d-4fb1-9be3-0bc964c39a5b" />
 
 
