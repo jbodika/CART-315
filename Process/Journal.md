@@ -435,3 +435,52 @@ Looking at everything from the first prototype to now, I'm genuinely happy with 
 [Click to download our prototype](https://github.com/jbodika/CART-315-Prototype/tree/main/GamePrototype/FinalPrototype)
 
 [Click to view our project files](https://github.com/jbodika/CART-315-Prototype/tree/main/GamePrototype)
+
+
+## Game Analysis (04.19.2026)
+The Danganronpa video game franchise is a visual novel murder mystery game where a group of students with unique "ultimate" talents must go through class trials to uncover who the killer is and avoid the spread of despair. There are currently 4 games in the series but I have only played 3 of them. For this analysis I will be focusing on the second game, Danganronpa 2: Goodbye Despair.
+
+### Look & Feel
+
+Every character has a distinct visual design where their outfits and personality reflect their ultimate talent. The backgrounds are animated but the character sprites are static, which gives the game a consistent visual novel feel. The music constantly shifts to match the severity of the situation. When a body is discovered the music becomes shocking and sinister, and during class trials it becomes more upbeat and intense to pull the player into the scene. The overall feel of the game is nostalgic, like you're being read a story the whole time. Outside of looking for clues and doing class trials there isn't much player interaction, which is both a strength and a weakness of the format.
+
+
+### Role
+
+The player walks around the island speaking to classmates, searching for clues, building relationships, and solving the trials. The main goal is to gather enough evidence to identify the killer and avoid a bad ending where the wrong person gets executed. Using the wrong clues during a class trial can result in failure, so the player has to pay attention throughout the investigation phase.
+
+What makes the role interesting is the emotional weight behind it. You spend time building relationships with these characters knowing that most of them won't survive. The game is a narrative mystery that lets you read the story while also actively participating through the class trials. Although, I find the trials can run very long. Cutting down on some of the dialogue or swapping out some of the rhythm based minigames for more logic based ones would make it feel more consistent with the mystery genre.
+
+
+### Implementation
+
+The game includes several minigames in the trials: Non-Stop Debate, Panic Talk Action, Logic Dive, and Hangman's Gambit. 
+
+
+Hangman's Gambit requires you to hit the correct letters while avoiding others that are flying across the screen, all while trying to guess the hidden word. The concept is interesting but in practice it's very difficult to managae avoiding letters and the word guessing at the same time, which makes it feel more frustrating than satisfying.
+<img width="1080" height="607" alt="image" src="https://github.com/user-attachments/assets/223571c3-6e7d-4fb1-9be3-0bc964c39a5b" />
+
+
+Panic Talk Action is more of a rhythm game where you hit the correct key as it lines up with a visual cue. After a certain number of hits the game prompts you to select the right words from the screen in the correct sequence. If you don't get it right you restart the sequence, so you have to stay focused and move quickly.
+
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7a2da2ce-013c-43c1-8ef5-072f9ab931b2" />
+
+
+### Integration
+
+All the evidence gathered during investigation carries directly into the trial, which makes the investigation phase feel purposeful. At the start of a trial you're still piecing together who the killer might be, but as it progresses the picture gets clearer. Some characters will try to mislead the group, and it's up to the player to use the right evidence. The minigames are tied to the clues themselves, so completing them advances the trial using facts and statements that are actually relevant to the case.
+
+The main issue with the integeration of the game is the passive reading and active input. It's either a very long class trial or very slow daily life sections where the character just talks to other students. A better balance would help the pacing a lot, maybe by giving the player more things to do on their own during the daily life sections rather than just walking between conversations.
+There's also a clear negative feedback loop built into every trial. The player always knows what's at stake, if they vote wrong then everyone gets executed. That constant threat keeps the tension high throughout.
+
+Overall, Danganronpa 2 does something clever by taking the visual novel format and allowing player independancy through the trial minigames. Instead of just reading through dialogue, the Non-Stop Debate and other mechanics give the player an active role in the mystery, which is what sets it apart from other visual novels. The execution isn't really perfect, especially when the minigames lean more toward reflexes than reasoning, but the core idea is strong and worth thinking about for future projects.
+
+The most interesting thing to take away from Danganronpa 2 is how the Non-Stop Debate makes argument feel interactive. Instead of just picking a dialogue option and watching the outcome, you're actively shooting down statements with evidence you gathered yourself. It makes the player feel like they earned the conclusion rather than just being handed it. That kind of design, where the mechanic reinforces what they're supposed to be doing is something i'd like to think about fo future projects.
+
+
+The game controls what you can find and when, which keeps the pacing intentional. You never feel overwhelmed because the game gives you information at a rate that matches where you are in the story. In our cable mini-game we did something similar by having the player click on the cable box first before the puzzle opens up, adding a small mechanical cue before dropping them into the task. I believe that it's very helpful to use small actions to give context before a bigger interaction begins rather than just presenting the player with a puzzle.
+
+
+The negative feedback loop is also something we already used without necessarily naming it. In our prototype the security guard patrolling the office puts constant pressure on the player. Every action has stakes attached to it because getting caught means a game over. Danganronpa does the same thing at a larger scale with the execution threat in every trial. Keeping that kind of tension present throughout the game, not just at specific moments, is something I'd carry into future projects.
+
