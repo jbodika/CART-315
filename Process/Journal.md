@@ -84,9 +84,12 @@ I am happy with the end result of this exploration I would like to expand on the
 
 ## Iterative Prototype 1 - Conceptualizing (02.19.26 - 02.26.26)
 
-** This is my entire journaling process for this project. [Click here](https://github.com/jbodika/CART-315/blob/main/Process/Journal.md#check-out-the-final-demo-video) to jump to the demo video!**
+```diff
+-  This is my entire journaling process for this project. Click below to jump to the demo video!
+```
+ [jump to demo](https://github.com/jbodika/CART-315/blob/main/Process/Journal.md#check-out-the-final-demo-video) 
 
-I first started off by brainstorming ideas for 5 minutes, I set up a timer and started typing. The ideas weren’t flowing to me naturally and I just kept overthinking. When the timer was done, I looked back at all my choices, and I realized that I had a couple promising  ones. 
+I started off by brainstorming ideas for 5 minutes, I set up a timer and started typing. The ideas weren’t flowing to me naturally and I just kept overthinking. When the timer was done, I looked back at all my choices, and I realized that I had a couple promising  ones. 
 1.	Dog walking
 2.	Moving trucks
 3.	Pixel Outfit Picker
@@ -133,7 +136,7 @@ FIRST TEAM BRAINSTORM 26.02.26
 We like idea of:
 
 Puzzle game 
-Jo’s idea 
+Josephine’s idea 
  
 We want to have a storyline: even if simple (parent catches you etc)
 Use of audio/ audio cues
@@ -163,7 +166,7 @@ We came up with 3 ideas of "settings" of where the game would be. We had a Schoo
 ```
 MEETING MARCH 5TH
 
-Jo’s brainstorming:
+Josephine’s brainstorming:
 School Desk:
 rearranging the desk (like in Jo’s iterative prototype 1)
 Sorting items in a pencil case by color
@@ -233,7 +236,7 @@ Wire mini game:
 
 
 For next week:
-Jo:
+Josephine:
 Better game pitch, mechanics explained better, gameplay loops 
 Find sounds (error, correct, footsteps, storm),
 Start working on the icons (red cross, green check)
