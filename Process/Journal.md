@@ -84,7 +84,7 @@ I am happy with the end result of this exploration I would like to expand on the
 
 ## Iterative Prototype 1 - Conceptualizing (02.19.26 - 02.26.26)
 
-** This is my entire journaling process for this project. [Click here]() to jump to the demo video!**
+** This is my entire journaling process for this project. [Click here](https://github.com/jbodika/CART-315/blob/main/Process/Journal.md#check-out-the-final-demo-video) to jump to the demo video!**
 
 I first started off by brainstorming ideas for 5 minutes, I set up a timer and started typing. The ideas weren’t flowing to me naturally and I just kept overthinking. When the timer was done, I looked back at all my choices, and I realized that I had a couple promising  ones. 
 1.	Dog walking
