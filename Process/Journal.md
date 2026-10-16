@@ -84,6 +84,8 @@ I am happy with the end result of this exploration I would like to expand on the
 
 ## Iterative Prototype 1 - Conceptualizing (02.19.26 - 02.26.26)
 
+** This is my entire journaling process for this project. [Click here]() to jump to the demo video!**
+
 I first started off by brainstorming ideas for 5 minutes, I set up a timer and started typing. The ideas weren’t flowing to me naturally and I just kept overthinking. When the timer was done, I looked back at all my choices, and I realized that I had a couple promising  ones. 
 1.	Dog walking
 2.	Moving trucks
@@ -379,8 +381,12 @@ Although there's always room to grow I think we could plan on refining the proje
 
 **Some visual assets (the wall and computer background) were sourced from online to support the development process and focus effort on the mechanical design.**
 
-Here's the final demo 
-[Link to the video](https://github.com/jbodika/CART-315/blob/main/Process/exampleVideo2.mp4)
+# Check out the final demo video 
+
+
+https://github.com/user-attachments/assets/14714eee-d792-4144-a73d-a1963cf2086e
+
+
 
 ## Final Journal (04.16.2026)
 After many weeks of working on our project, it feels great to see the difference between where we started and where we are now.
